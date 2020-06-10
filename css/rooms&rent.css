@@ -7,185 +7,147 @@ html {
   height: 100%;
 }
 
-.hero {
-  position: relative;
+.heros {
+  
   width: 100%;
   height: 322px;
   left: 0px;
   top: 55px;
-  background: #b5a7fa;
+  background: #B5A7FA;
 }
 
-.images {
-  position: absolute;
+.Dimages {
+  
   width: 737px;
   height: 350px;
-  left: 351px;
-  right: 350;
-  top: 236px;
+  margin-left: 305px;
+  margin-right: 350px;
+  margin-top: 150px;
   /* background: url(Classic-Rooms-Accommodation-Dublin.jpg); */
 }
 
-.formtext {
-  position: absolute;
-  width: 765px;
-  height: 74px;
-  left: 195px;
-  top: 648px;
-  border: 1px solid #080227;
-  box-sizing: border-box;
-  border-radius: 10px;
+.heroescover{
+  height: 400px;
 }
 
-::placeholder {
-  /* Most modern browsers support this now. */
-  left: 231px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
-  color: rgba(8, 2, 39, 0.59);
+.new-container{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
 }
 
-.btnn {
-  position: absolute;
-  width: 240px;
-  height: 74px;
-  left: 1005px;
-  top: 648px;
-  background-color: #f5b943;
-  border-radius: 10px;
-  border: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
+.thumb{
+  width: 200px;
+  height:150px;
+}
 
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px 100px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.another-container{
+  display:grid;
+  grid-gap:10px;
+  grid-template-columns: auto auto ;
+}
+
+.footericon{
+  margin-right: 15px;
+}
+
+.footersocial{
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+.footer-top {
+  background-color:#080227;
+  
+}
+.footer ul{
+    list-style: none;
+    padding: 12px 0;
+}
+.footer ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+#footerparagraph{
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: normal;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px 10px;
+  grid-template-columns: auto auto auto auto;
+  padding: 5px;
+  background-color: #080227;
   color: #ffffff;
 }
 
-.btn:hover {
-  background-color: #00afef;
-  cursor: pointer;
+.grid-item {
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
 }
 
-.i1 {
-  position: absolute;
-  width: 274px;
-  height: 172px;
-  left: 195px;
-  top: 808px;
 
-  background: rgba(181, 167, 250, 0.6);
-  border-radius: 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+input{
+  border-radius: 3px;
+ border: 1px solid #b4ba8d;
+  background-color: #dff0d8;
+  padding: 8px;
+  margin: 20px;
+  width:400px; 
+  justify-content: center;
+}
+.spanbutton{ font-family: 'Segoe UI';
+ color: white;
+ border: 1px solid #b4ba8d;
+ border-radius: 6px;
+ background-color: #f5b943;
+ padding:5px;
+  text-decoration: none;
 }
 
-.i2 {
-  position: absolute;
-  width: 274px;
-  height: 166px;
-  left: 525px;
-  top: 814px;
 
-  /* background: url(Hotel-design.png); */
-  border-radius: 10px;
+
+.flex-box{
+  display: flex;
+  /* flex-basis: 31%; */
+/* justify-content: space-around; */
+justify-content: space-between;
+margin-left: 300px;
+text-align: center;
+}
+.pad-flex {
+  padding: 0 10rem;
 }
 
-.i3 {
-  position: absolute;
-  width: 274px;
-  height: 163px;
-  left: 199px;
-  top: 1022px;
-
-  /* background: url(hotel-room.jpg); */
-  border-radius: 10px;
-}
-
-.i4 {
-  position: absolute;
-  width: 274px;
-  height: 162px;
-  left: 525px;
-  top: 1022px;
-
-  /* background: url(hotel-room-design-compressor.jpg); */
-  border-radius: 10px;
-}
-
-.i5 {
-  position: absolute;
-  width: 274px;
-  height: 162px;
-  left: 199px;
-  top: 1228px;
-
-  /* background: url(73118462.jpg); */
-  border-radius: 10px;
-}
-
-.i6 {
-  position: absolute;
-  width: 274px;
-  height: 162px;
-  left: 525px;
-  top: 1228px;
-
-  /* background: url(unnamed.jpg); */
-  border-radius: 10px;
-}
-
-.rect {
-  position: absolute;
-  width: 16px;
-  height: 280px;
-  left: 1001px;
-  top: 959px;
-
-  background: #080227;
-}
-
-.amountb {
-  position: absolute;
-  width: 187px;
-  height: 42px;
-  left: 1061px;
-  top: 990px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 56px;
-
-  color: #6043f5;
-}
-
-.para {
-  position: absolute;
-  width: 176px;
-  height: 18px;
-  left: 1061px;
-  top: 1057px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #000000;
-}
-
-.check {
-  position: absolute;
-  width: 176px;
-  height: 44px;
-  left: 1061px;
-  top: 1114px;
-
-  background: #f5b943;
-  border-radius: 10px;
+.form{
+  font-size: 25px;
+  color: #745af7;
+  margin-bottom: 1px;
+  margin-top: 140px;
+  
 }

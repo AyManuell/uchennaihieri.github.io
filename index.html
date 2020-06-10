@@ -4,173 +4,203 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Badiru Hotels-Home </title>
-    <link rel="stylesheet" href="css/style.css"/>
-<link rel="stylesheet" href="css/navbar.css"/>
-<link rel="stylesheet" href="/css/navbar.css"/>
-    <link rel="stylesheet" href="/css/contactus.css"/>
-<link
-      rel="stylesheet"
-      href="fontawesome-free-5.12.0-web/css/all.min.css"
-    />
+    <title>Badiru Hotels-Home</title>
 </head>
+<!-- font links -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+<script src="https://kit.fontawesome.com/ab5a424bd1.js" crossorigin="anonymous"></script>
+<!-- css links -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/navbar.css">
 
 <body>
-        <nav>
-                <div class="nav-center">
-                  <!-- nav header -->
-                  <div class="nav-header">
-                    <img src="Assets/logo.jpg" class="logo" alt="logo" />
-                    <button class="nav-toggle">
-                      <i class="fas fa-bars"></i>
-                    </button>
-                  </div>
-                  <!-- links -->
-                  <ul class="links">
-                    <li>
-                      <a href="#">home</a>
-                    </li>
-                    <li>
-                      <a href="/facilities.html">facilities</a>
-                    </li>
-                    <li>
-                      <a href="/rooms&rent.html">rooms & rent</a>
-                    </li>
-                    <li>
-                      <a href="/contactus.html">contact</a>
-                    </li>
-                  </ul>
-                  <!-- social media -->
-                  <ul class="social-icons">
-                    <li>
-                      <a href="https://www.twitter.com">
-                        <i class="fab fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.twitter.com">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.twitter.com">
-                        <i class="fab fa-behance"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.twitter.com">
-                        <i class="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.twitter.com">
-                        <i class="fab fa-sketch"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-        
-              <script src="script/navbar.js"></script>
 
-    <header class="header">
-        <div class="home__hero">
-             <img src="Assets/hero.jpeg" alt="Hotels-Home" class="header__hero--img">
-        </div>     
-    </header>
+    <header>
+        <nav class="container container__flex navbar">
+          <img class="company__logo" src="assets/Badiru__logo.png" alt="company logo" />
+          <label for="menu" class="hamburger-menu">
+            <span></span>
+          </label>
+          <ul class="nav__links side-nav display-none">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="/rooms&rent.html">Rooms & rent</a></li>
+            <li><a href="/contactus.html">Contact us</a></li>
+          </ul>
+        </nav>
+      </header>
+    <!-- Header section -->
+    <div class="header">    
+        <img src="/assets/hero.jpeg" alt="Hotels-Home" class="header__hero--img">
+    </div>
+    <!-- Header section end -->
 
-
+    <!-- Main -->
     <main>
+        <!-- feature section -->
+        <section class="section-features">
+            <div class="card">
+                <div class="card__top">
+                    <h4 class="card__heading">
+                        Recreation
+                    </h4>
+                    <p class="card__value">
+                        100,000 above
+                    </p>
+                </div>
+                <h2 class="card__logo">
+                    RC
+                </h2>
+                <div class="card__picture card__picture--1">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+                    <h4 class="card__heading">
+                        Rooms
+                    </h4>
+                    <p class="card__value">
+                        50,000 above
+                    </p>
+                </div>
+                <h2 class="card__logo">
+                    RS
+                </h2>
+                <div class="card__picture card__picture--2">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">   
+                    <h4 class="card__heading">
+                        Event Center
+                    </h4>
+                    <p class="card__value">
+                        1,000,000 above
+                    </p>
+                </div>
+                <h2 class="card__logo">
+                    EC
+                </h2>
+                <div class="card__picture card__picture--3">
+                    &nbsp;
+                </div>
+            </div>       
+        </section>
+        <!-- feature section  end-->
+
+        <!-- about section  -->
         <section class="section-about">
             <div class="row">
                <div class="col-1-of-2">
-                <h3 class="heading-primary u-margin-bottom-small">
+                <h3 class="heading-secondary u-margin-bottom-small">
                            Little About B Hotel
                         </h3>
                         <p class="paragraph u-paragraph-align">
                                 B Hotel is the tallest hospitality building in Nigeria, and with its terraces, it offers splendid views of the Lagos city, most importantly the Lagos Port and Lagos skyline. It is a 10 minutes drive away from Ikoyi Club; with its proximity to Silverbird Cinemas and Embassies, it has the right location for guests to enjoy their stay.
                         </p>
-                        <a href="#" class="btn-text">
-                            Read More;
+                        <a href="#" class="btn-text btn-text--yellow">
+                            Read More
                         </a>
                </div>
                <div class="col-1-of-2">
-                   <img src="Assets/home1.jpeg" alt="Hotel-about" class="" style="width: 98%">
+                   <img src="/assets/home1.jpeg" alt="Hotel-about" class="grid-photos">
                </div>
             </div>
 
             <div class="row">
                     <div class="col-1-of-2">
-                     <img src="Assets/home2.jpeg" alt="Hotel-about" class="" style="width: 98%;">
+                     <img src="/assets/home2.jpeg" alt="Hotel-about" class="grid-photos">
                     </div>
                     <div class="col-1-of-2">
-                            <h3 class="heading-primary u-margin-bottom-small">
-                                    First Class Services
-                                 </h3>
-                                 <p class="paragraph u-paragraph-align">
-                                        B Hotel is the tallest hospitality building in Nigeria, and with its terraces, it offers splendid views of the Lagos city, most importantly the Lagos Port and Lagos skyline. It is a 10 minutes drive away from Ikoyi Club; with its proximity to Silverbird Cinemas and Embassies, it has the right location for guests to enjoy their stay. 
-                                 </p>
-                                 <a href="#" class="btn-text">
-                                    Reserve
-                                 </a>
+                        <h3 class="heading-secondary u-margin-bottom-small">
+                            First Class Services
+                        </h3>
+                        <p class="paragraph u-paragraph-align">
+                            B Hotel is the tallest hospitality building in Nigeria, and with its terraces, it offers splendid views of the Lagos city, most importantly the Lagos Port and Lagos skyline. It is a 10 minutes drive away from Ikoyi Club; with its proximity to Silverbird Cinemas and Embassies, it has the right location for guests to enjoy their stay. 
+                        </p>
+                        <a href="#" class="btn-text btn-text--yellow">
+                            Reserve
+                        </a>
                     </div>
                  </div>
-
-
         </section>
+        <!-- about section end -->
+
+        <!-- stories section -->
+        <section class="section-stories">
+            <div class="u-center-text u-margin-bottom-small">
+                    <h2 class="heading-primary-story"> What Clients Say About us </h2>
+            </div>
+            <div class="stories">
+                <div class="story-container">
+                    <div class="story-card">
+                        <div class="comments-container">
+                            <div class="comment comment__bottom--left">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore provident ducimus eum accusantium recusandae possimus.
+                            </div>  
+                        </div>
+                        <img src="/assets/stories1.png" alt="story avatar" class="avatar">
+                        <div class="story-card__name">
+                            <p>Allena Mathew</p>
+                        </div>
+                    </div>
+
+                    <div class="story-card">
+                        <div class="comments-container">
+                            <div class="comment comment__bottom--left">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore provident ducimus eum accusantium recusandae possimus.
+                                </div>
+                            </div>
+                            <img src="/assets/stories2.png" alt="story avatar" class="avatar">
+                            <div class="story-card__name">
+                                <p>Mark James</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- stories section end -->
     </main>
-    <footer id="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-lg-2 footer__logo-container">
-						<img src="/Assets/Badiru_logo.png" alt="footer logo" />
-					</div>
-					<div class="col-xs-12 col-sm-6 col-lg-3 site__links">
-						<ul>
-							<li><a href="/index.html">Home</a></li>
-							<li><a href="/facilities.html">Facilities</a></li>
-							<li><a href="/rooms&rent.html">Room & rent</a></li>
-							<li>
-								<a href="/contactus.html">Contact us</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-lg-4 contact__links">
-						<ul>
-							<li class="contact">
-								<img src="/Assets/icon-phone.svg" alt="phone icon" />+234
-								7012931220, +221 34577876
-							</li>
-							<li class="contact">
-								<img
-									src="/Assets/icon-email.svg"
-									alt="email icon"
-								/>info@bhotel.com
-							</li>
-							<li class="contact">
-								<img src="/Assets/icon-location.svg" alt="Location icon" />No. 4
-								Alakuko Lagos Nigeria
-							</li>
-						</ul>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-lg-3 social-icons__container">
-						<h2 class="footer__heading">Connect with us</h2>
-						<ul class="d-flex">
-							<li>
-								<a href="#"><i class="fab fa-twitter"></i></a>
-							</li>
-							<li>
-								<a href="#" target="_blank" rel="noopener"
-									><i class="fab fa-facebook-f"></i
-								></a>
-							</li>
-							<li>
-								<a href="#"><i class="fab fa-instagram"></i></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
+    <!-- main end -->
+
+    <div class="footer">
+        <div class="grid-container">
+          <div class="grid-item">
+            <div> <a href="/index.html"><img src="/assets/Badiru__logo.png" alt="" ></a></div>
+          </div>
+    
+    
+          <div class="grid-item">
+            <ul>
+              <li> <a href="/index.html">Home</a></li>
+              <li> <a href="">Facilities</a></li>
+              <li> <a href="/rooms&rent.html">Room & Rent</a></li>
+              <li> <a href="/contactus.html"> ContactUs</a></li>
+            </ul>
+          </div>
+    
+    
+          <div class="grid-item">
+            <ul>
+              <li><p><span class="footericon"><i class="fa fa-phone" aria-hidden="true"></i></span>+234 7012931220, +221 34577876</p></li>
+              <li> <p><span class="footericon"><i class="fa fa-envelope" aria-hidden="true"></i></span>info@bhotel.com</p></li>
+              <li> <p><span class="footericon"><i class="fa fa-map-marker" aria-hidden="true"></i></span> 4 Alakuko Lagos Nigeria</p></li>
+            </ul>
+          </div>
+    
+    
+          <div class="grid-item">
+            <p id="paragraph">Connect With Us</p>
+            <span class="footersocial"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+            <span class="footersocial"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+            <span class="footersocial"> <i class="fa fa-instagram" aria-hidden="true"></i></span>
+          </div>
+        </div>
+      </div>
+    
+    <script src="/scripts/navbar.js"></script>
 </body>
 </html>
